@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun-ir-chur</title>
+
+   <!-- custom css -->
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    
+    <!-- Navbar with flex box -->
+    <nav class="navbar">
+      <div class="navbar-center">
+        <!-- will add 3 elements -->
+        <span class="nav-icon">
+            <i class="fas fa-bars"></i>
+        </span>
+
+
+        <img src="./images/logo.svg" alt="Image logo" />
+
+        <div class="cart-btn">
+            <span class="nav-icon">
+                <i class="fas fa-cart-plus"></i>
+            </span>
+            <div class="cart-items">
+                0
+            </div>
+        </div>
+      </div>  
+    </nav>
+    <!-- Not much concerned about navbar -->
+
+
+    <!-- hero section -->
+    <header class="hero">
+        <div class="banner">
+            <h1 class="banner-title">
+                furniture collection
+            </h1>
+            <button class="banner-btn">
+                shop now
+            </button>
+        </div>
+    </header>
+
+    <!-- Product section -->
+    <section class="products">
+        <div class="section-title">
+            <h2>our products</h2>
+        </div>
+        <div class="products-center">
+            <!-- single product -->
+            <!-- <article class="product">
+                <div class="img-container">
+                    <img src="./images/product-1.jpeg" alt="" class="product-img">
+                
+                <button class="bag-btn" data-id="1">
+                    <i class="fas fa-shopping-cart"></i>
+                    add to bag
+                </button>
+                </div>
+
+                <h3>Queen bed</h3>
+                <h4>$110</h4>
+
+            </article> -->
+        </div>
+    </section>
+
+    <!-- cart section -->
+    <!-- fixing at the right -->
+
+    <div class="cart-overlay">
+        <div class="cart">
+            <span class="close-cart">
+                <i class="fas fa-window-close"></i>
+            </span>
+
+            <h2>your cart</h2>
+            <div class="cart-content">
+                <!-- cart items here -->
+                <div class="cart-item">
+                    <!-- <img src="./images/product-1.jpeg" alt="">
+                    <div>
+                        <h4>queen bed</h4>
+                        <h5>$9</h5>
+                        <span class="remove-item">remove</span>
+                    </div>
+                    <div>
+                        <i class="fas fa-chevrom-up"></i>
+                        <p class="item-amount">0</p>
+                        <i class="fas fa-chevrom-down"></i>
+                    </div> -->
+                </div>
+            </div>
+
+            <div class="cart-footer">
+                <h3>your total : $ <span class="cart-total">0</span></h3>
+                <button class="clear-cart banner-btn">clear cart</button>
+            </div>
+        </div>
+    </div>
+
+ <!-- font Awesome -->
+
+ <script src="https://kit.fontawesome.com/0b4efc0fdd.js" crossorigin="anonymous"></script>
+
+
+ <!-- contentful js -->
+
+ <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+
+
+
+ <!-- Main script -->
+
+<script src="app.js"></script>
+</body>
+</html>
